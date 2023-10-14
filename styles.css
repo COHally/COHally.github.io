@@ -126,22 +126,22 @@ nav a{
 
 /* About Styling */
 
-#background{
-  height: auto;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: var(--padding);
-  
+.bgimg{
+ background: url(images/background.jpg) center; 
+ background-size: cover;
+height: 300px;
+max-width: 100%;
+position: relative;
 }
 
 .container {
   position: relative;
   text-align: center;
   color: var(--raisin);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .top-left {
@@ -149,6 +149,17 @@ nav a{
   top: 24px;
   left: 16px;
   font-size: large;
+  text-shadow: 0 0 10px white;
+}
+
+section{
+  padding: var(--padding);
+}
+
+.constraint{
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
 }
 
 
@@ -363,6 +374,10 @@ width: 250px;
   .connect{
   display: flex;
   flex-direction: row;
+  }
+
+  .constraint{
+max-width: 2000px;
   }
 
 }
