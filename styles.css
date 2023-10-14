@@ -129,13 +129,11 @@ nav a{
 .bgimg{
  background: url(images/background.jpg) center; 
  background-size: cover;
-height: 300px;
+height: 350px;
 max-width: 100%;
-position: relative;
 }
 
 .container {
-  position: relative;
   text-align: center;
   color: var(--raisin);
   padding: 10px;
@@ -149,7 +147,7 @@ position: relative;
   top: 24px;
   left: 16px;
   font-size: large;
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 8px white;
 }
 
 section{
